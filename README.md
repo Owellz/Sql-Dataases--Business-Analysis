@@ -1,3 +1,7 @@
+
+
+
+
 -- joining tables of two different tables within the databases. 
 -- aim here is to find payment methods used by customers with there respective imvoice id
 --- 
