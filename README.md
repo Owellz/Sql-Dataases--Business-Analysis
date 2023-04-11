@@ -1,4 +1,4 @@
-# Sql-Dataases--Business-Analysis
+# Sql-Database--Business-Analysis
 
 
 -- joining tables of two different tables within the databases. 
