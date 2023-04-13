@@ -100,3 +100,18 @@ LEFT JOIN shippers sh
 ON o.shipper_id = sh.shipper_id
 JOIN order_statuses os
 ON o.status = os.order_status_id
+
+
+use sql_invoicing;
+SELECT 
+p.date,
+c.name AS client,
+p.amount,
+pm.name AS payment_method
+FROM 
+payments p
+JOIN clients c
+-- used USING because both payments and clients tables have client_id "identical"
+USING (client_id)
+JOIN  payment_methods pm
+ON p.payment_method = pm.payment_method_id
