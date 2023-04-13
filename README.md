@@ -1,5 +1,5 @@
-
-
+# Exploring SQL databases, at the end of the business analysis, I was able to retrieve and analyze the conditional statement highlighted below.
+Sequel to the SQL statements, I was able to explore different tables across the databases and within each table respectively. 
 
 
 -- joining tables of two different tables within the databases. 
